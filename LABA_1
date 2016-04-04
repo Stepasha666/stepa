@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+ 	<meta charset="utf-8">
+<title> AB </title>
+		<style>
+			header { 	background: 	#000080;
+					text-align: center;
+					color : #FFFFFF}
+	
+			aside {		text-align: center;
+					background: #FFD700; /* Цвет фона */
+   					padding: 10px; /* Поля */
+    					width: 500px; /* Ширина сайдбара */
+    					
+					margin:  10px 150px;
+ 					
+    					}
+
+			footer {text-align: center}
+
+			hgroup{text-align: right}
+
+			figure{	background: #00FF00; /* Цвет фона */
+    				padding: 10px; /* Поля вокруг */
+    				display: block; /* Блочный элемент */
+    				width: 200px; /* Ширина */
+    				/*float: left;*/ /* Блоки выстраиваются по горизонтали */
+   				margin: 0 10px 10px 0; /* Отступы */
+    				text-align: center; /* Выравнивание по центру */
+				color: #FF0000}
+		</style>
+		<article>
+
+			<header>
+				<p><h1> КУКУ - КУКУ </h1></p>
+			</header>
+
+			<aside>
+				<p>ля-ля-ля жу-жу-жу</p>
+				<p>яяяяяяяяяяяяяяяяяяя</p>
+			</aside>
+			
+			<nav> 	<p> <a href="1.html">Ссылка 1</a>  </p>
+				<p> <a href="1.html">Ссылка 2</a> </p>
+				<a href="1.html">Ссылка 3</a>
+				
+			</nav>
+			<hgroup>
+   				<h1><EM>ЭВТ-13</eM></h1>
+   				 <h2>Степан</h2>
+  			</hgroup>
+			<figure>
+				<p> <h1> QT </h1> </p>
+				<img src="D:\aaa.png">
+			</figure>
+
+			<footer> <h1>The end</h1> </footer>
+			<small> creat by Кудрявцев Степан ЭВТ-13 (c) </small>
+
+		</article>
+</html>
