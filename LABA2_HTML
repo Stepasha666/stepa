@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<meta charset="utf-8">
+<title> Лабараторная два </title>
+		<style>
+body {
+  font-family: 'Palatino Linotype', serif;
+  max-width: 600px;
+  padding: 0px 30px;
+      background-color: #333;
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+p {
+
+  	text-align: center;
+    font-size: 2.3em;
+    font-weight: normal;
+    margin: 0 30px 16px 30px;
+    color: #3c3;
+
+}
+
+fieldset {
+  margin-bottom: 15px;
+  padding: 15px;
+  color: #3c3;
+}
+
+legend {
+  padding: 0px 3px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+label {
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+}
+
+input:focus {
+  background: #eaeaea;
+}
+
+
+textarea {
+  height: 100px;
+}
+
+select {
+  width: 254px;
+}
+
+input[type=checkbox] {
+  width: 11px;
+}
+
+input[type=submit] {
+  width: 170px;
+  padding: 10px;
+  color: #3c3;
+  background-color: #000080;
+}
+
+input:invalid {
+	border:1px solid red;
+}
+		</style>
+</head>
+
+
+	<body>
+			<form action="#">
+	  <p><i>ЗАПОЛНИТЕ ФОРМУ!!! </i></p>
+	  <fieldset>
+	    <legend>Контактная информация</legend>
+
+	      <label for="name">Имя </label>	     
+	      <input id="name" placeholder="Василий" autofocus required><br>
+
+	      <label for="Fname">Фамилия</label>
+	      <input id="Fname" placeholder="Пупкин" autofocus required><br>
+
+	      <label for="Otch">Отчество</label>
+	      <input id="Otch" placeholder="Васильевич" autofocus required><br>   
+	      <label for="dr">Дата Рождения</label>
+	      <input id="dr" type ="date" min="1900-01-01" max="2016-31-12"  autofocus required><br>
+
+	  </fieldset>
+
+
+	  <fieldset>
+	    <legend>Персональная информация</legend>
+	      <label for="age">Возраст</label>
+	      <input id="age" type ="number" placeholder = "1-99" autofocus required ><br>
+	      <label for="gender">Пол</label>
+	      <select id="gender">
+	        <option value="female">Мужчина</option>
+	        <option value="male">Женщина</option>
+	        <option value = "ONO">ОНО</option>
+	      </select><br>
+	      <label for="a">Кто ты по жизни?</label>
+	      <label for="daun"><input id="daun" type="checkbox"> ДуДосер</label>
+	      <label for="pidor"><input id="pidor" type="checkbox">Очередняра </label>	  
+	      <label for="a"><input id="a" type="checkbox">Адекватный</label>       
+	  </fieldset>
+	  	 
+	  
+	  <p><input type="submit" value="Отправить информацию"></p>
+			</form>
+	</body>
+</html>
