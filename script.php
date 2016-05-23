@@ -21,7 +21,7 @@ if ($_SESSION['test'] == $_SERVER['REMOTE_ADDR'])
 	if($success == true)
 	{
 		$_SESSION['message'] = 'Благодарим за регистрацию!'; 
-		$fp  = fopen('notes.txt', 'a+'); 
+		$fp  = fopen('tmp.txt', 'a+'); 
 		fwrite($fp, $name."\n");
 		fwrite($fp, $NewLine."\n"); 
 		fwrite($fp, $email."\n"); 
