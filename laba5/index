@@ -8,7 +8,6 @@ $_SESSION['test'] = $_SERVER['REMOTE_ADDR'];
 <head>
 	<meta charset="utf-8">
 	<title>lab5</title>
-	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
